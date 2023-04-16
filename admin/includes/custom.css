@@ -1,0 +1,55 @@
+.top-bar {
+    background-color: white;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-bottom: 4rem;
+    display: flex;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.top-bar h1 {
+    font-weight: 800;
+}
+
+/* .top-bar .title-data {
+    background-color: orange;
+    color: white;
+    border-radius: 16px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+} */
+
+table {
+    border-radius: 8px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.dataTables_length label {
+    display: none;
+}
+
+.sorted_filter {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+table thead {
+    background-color: rgb(85, 146, 231);
+    color: white;
+}
+
+#sorted_paginate ul {
+    border-radius: 30px;
+    overflow: hidden;
+    border: 0px solid transparent;
+}
+
+#sorted_paginate .pagination li {
+
+    border: 0px solid transparent !important;
+}
